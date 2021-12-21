@@ -1,0 +1,72 @@
+ /* start here profile section  */
+
+ section {
+    background-image: url(https://developershad.netlify.app/static/media/banner.bb7bf62f.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98.7vw;
+    height: 100vh;
+}
+
+.section__profile {
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    height: 50vh;
+    line-height: 50px;
+}
+
+.section__profile_img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__profile_img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.section_profile_who h3 {
+    color: var(--text_color);
+    font-size: 30px;
+}
+
+.section_profile_name h1 {
+    color: var(--text_color);
+}
+
+.section_profile_skill h3 {
+    color: var(--text_color);
+    font-size: 25px;
+}
+
+.section_profile_skill span {
+    color: var(--primery_color);
+}
+
+.section_profile_resume {
+    background-color: var(--primery_color);
+    padding: 2px 25px;
+    border-radius: 10px;
+
+}
+
+.section_profile_resume a {
+    color: var(--text_color);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.section_profile_resume i {
+    color: var(--text_color);
+}

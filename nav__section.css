@@ -1,0 +1,89 @@
+:root {
+    --primery_color: #DC143C;
+    --secondery_color: #111111;
+    --text_color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: var(--primery_color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav {
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    position: static;
+    /* border: 1px solid black; */
+}
+
+.nav__left {
+    width: 20vw;
+    display: flex;
+    /* border: 2px solid black; */
+    align-items: center;
+    justify-content: center;
+
+    color: var(--text_color);
+}
+
+.nav__left_logo {
+    color: var(--text_color);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.nav__right {
+
+    width: 35vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav__right_home {
+    font-size: 14px;
+    color: var(--text_color);
+
+}
+
+.nav__right_about {
+    font-size: 14px;
+    color: var(--text_color);
+}
+
+.nav__right_skill {
+    font-size: 14px;
+    color: var(--text_color);
+}
+
+.nav__right_project {
+    font-size: 14px;
+    color: var(--text_color);
+}
+
+.nav__right_contact {
+    font-size: 14px;
+    color: var(--text_color);
+}
+
+/* @media screen and (min-width:700px) and (max-width:900px) {} */
+@media screen and (min-width:600px) and (max-width:866px) {
+    nav {
+        width: 98vw;
+    }
+}

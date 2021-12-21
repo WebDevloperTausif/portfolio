@@ -1,0 +1,50 @@
+
+        /* skills and tools css start here  */
+
+        .section_skill {
+            display: flex;
+            justify-content: center;
+            background-color: black;
+            align-items: center;
+            padding: 40px;
+        }
+
+        .skill {
+            display: flex;
+            flex-direction: column;
+            border: 1px solid black;
+            width: 80vw;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .skill_top {
+            width: 80vw;
+            text-align: center;
+            line-height: 50px;
+            color: white;
+        }
+
+        .skill_bottom {
+            width: 80vw;
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2.5vw;
+        }
+
+        .skill_bottom_box {
+
+            width: 18vw;
+            height: 25vh;
+            border: 2px solid rgb(190, 187, 187);
+        }
+
+        .skill_icon i {
+            font-size: 8vw;
+            color: white;
+        }
+
+        .skill_title p {
+            color: var(--primery_color);
+        }
