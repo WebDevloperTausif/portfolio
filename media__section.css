@@ -33,7 +33,7 @@
 
     .project_box_use-tools {
         width: 80vw;
-       
+
     }
 
     .contact__left {
@@ -76,54 +76,162 @@
     }
 }
 
+/* start here max-width 700px  */
+
 @media screen and (max-width:700px) {
     nav {
         flex-direction: column;
-        justify-content: center;
+    }
+
+    .nav__left {
+        width: 70vw;
         align-items: center;
-        gap: 15px;
+
     }
 
-    .nav__left_logo h1 {
-        font-size: 1.5rem;
+    .nav__left_box h1 {
+        font-size: 30px;
     }
 
-    /* about section start  here media  */
-
-    .about__down {
-        flex-direction: column;
-    }
-
-    .about__down_text_sec h2 {
-        font-size: 25px;
+    .nav__right {
+        width: 70vw;
+        align-items: center;
         padding: 10px;
     }
 
-    /* skills and tools css start here media  */
+    .section__profile {
+        width: 75vw;
+        display: flex;
+    }
 
-    /* .skill_bottom{
+    .section_profile_skill h3 {
+        font-size: 20px;
+    }
 
-    } */
+    .about_top_about {
+        text-align: center;
+    }
+
+    .about__down_img {
+        width: 55vw;
+        flex-direction: column;
+    }
+
+    .about {
+        width: 80vw;
+    }
+
+    .about__top {
+        width: 80vw;
+        padding: 0px;
+    }
+
+    .about__down {
+        width: 80vw;
+        flex-direction: column;
+    }
+
+    .about__down_img {
+        width: 50vw;
+        align-items: center;
+    }
+
+    .about__down_text_sec h2 {
+        width: 60vw;
+        font-size: 15px;
+    }
+
+    .about__down_text_sec p {
+        font-size: 16px;
+    }
+
+    /* skill section start here media  */
+
+    .skill {
+        width: 80vw;
+    }
+
+    .skill_bottom {
+        width: 80vw;
+    }
+
+    .skill_bottom_box {
+        width: 32vw;
+
+    }
+
+
+    /* project section start here  */
+    .project {
+        width: 80vw;
+        padding: 0px;
+    }
+
+    .project_right {
+        width: 75vw;
+    }
+
+    .project_box {
+        width: 70vw;
+    }
+
+    .project_box_use-tools {
+        width: 70vw;
+
+    }
 
 
 
-    /* contact section css start here media  */
+    /* contact section start here  */
+    .contact__section {
+        width: 80vw;
+    }
+
+    .contact__top {
+        width: 80vw;
+    }
 
     .conatct__bottom {
+        width: 80vw;
         flex-direction: column;
+    }
+
+    .contact__left {
+        width: 80vw;
+    }
+
+    .conatct__profile_box a {
+        width: 80vw;
+        font-size: 35px;
+    }
+
+    .contact__right {
+        width: 70vw;
+        padding: 40px;
+    }
+
+    .contact__right_input_box input {
+        width: 60vw;
+    }
+
+    .contact__right_input_box textarea {
+        width: 60vw;
+        height: 13vh;
+    }
+
+    .contact__right_input_button button {
+        width: 40vw;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .footer__box {
+        font-size: 11px;
     }
 }
 
 
-/* Extra small devices (phones, 600px and down) */
-/* @media only screen and (max-width: 600px) {
-     nav {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 15px;
-    }
-}  */
+
 
 
 
