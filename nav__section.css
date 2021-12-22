@@ -92,20 +92,3 @@ nav {
 }
 
 /* @media screen and (min-width:700px) and (max-width:900px) {} */
-@media screen and (min-width:400px) and (max-width:800px) {
-    nav {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 15px;
-    }
-    .nav__left_logo h1{
-        font-size: 1.5rem;
-    }
-}
-@media screen and (min-width:200px) and (max-width:500px) {
-    nav {
-        display: none;
-    }
-   
-}

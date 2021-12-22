@@ -70,14 +70,3 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-@media screen and (min-width:400px) and (max-width:800px) {
-    .about {
-        display: flex;
-        flex-direction: column;
-
-    }
-
-    .about_right_about {
-        order: -1;
-    }
-}

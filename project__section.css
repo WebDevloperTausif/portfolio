@@ -1,150 +1,159 @@
-
-        /* project section css start here  */
-
-
-        .project_section {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 30px;
-        }
-
-        .project {
-            width: 80vw;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .project_left {
-            width: 80vw;
-            height: 10vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            line-height: 30px;
-            padding: 50px;
-        }
-
-        .project_left h1 {
-            padding: 0px;
-
-        }
-
-        .project_left p {
-            color: var(--primery_color);
-            font-size: 20px;
-            font-weight: 600;
-        }
-
-        .project_right {
-            width: 80vw;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 30px;
-        }
-
-        .project_box {
-            /* border: 1px solid black; */
-            width: 36vw;
-            padding: 10px;
-            /* height: 90vh; */
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-            transition: 0.5s;
-
-        }
-
-        .project_box_img img {
-            width: 100%;
-        }
-
-        .project_box_title h1 {
-            text-align: center;
-            color: var(--primery_color);
-            padding: 10px;
-            font-size: 20px;
-        }
-
-        .project_box_decs p {
-            padding: 0px;
-        }
-
-        .project_box_sub-title h1 {
-            text-align: center;
-            color: var(--primery_color);
-            padding: 10px;
-            font-size: 20px;
-        }
-
-        .project_box_use-tools {
-            /* border: 1px solid black; */
-            width: 36vw;
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            padding: 10px;
-
-        }
-
-        .project_box_use-tools_box {
-            /* border: 1px solid black; */
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+/* project section css start here  */
 
 
-        }
+.project_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
 
-        .project_box_use-tools_icon i {
-            font-size: 15px;
-            padding: 5px;
-        }
+.project {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+}
 
-        .project_box_use-tools_title p {
-            font-size: 10px;
-        }
+.project_left {
+    width: 80vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+    padding: 50px;
+}
 
-        .project_box_button {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 10px;
+.project_left h1 {
+    padding: 0px;
 
-        }
+}
 
-        .project_box_button_visit {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 10px;
-        }
+.project_left p {
+    color: var(--primery_color);
+    font-size: 20px;
+    font-weight: 600;
+}
 
-        .project_box_button_visit button {
-            background-color: var(--primery_color);
-            font-size: 16px;
-            padding: 5px 15px;
-            color: white;
-            border-radius: 5px 15px 5px;
-            border: none;
-            outline: none;
-        }
+.project_right {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
 
-        .project_box_button_code {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 10px;
-        }
+.project_box {
+    /* border: 1px solid black; */
+    width: 36vw;
+    padding: 10px;
+    /* height: 90vh; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
 
-        .project_box_button_code button {
-            background-color: var(--primery_color);
-            font-size: 16px;
-            padding: 5px 10px;
-            color: white;
-            border-radius: 5px 15px 5px;
-            border: none;
-            outline: none;
-        }
+}
+
+.project_box_img img {
+    width: 100%;
+}
+
+.project_box_title h1 {
+    text-align: center;
+    color: var(--primery_color);
+    padding: 10px;
+    font-size: 20px;
+}
+
+.project_box_decs p {
+    padding: 0px;
+}
+
+.project_box_sub-title h1 {
+    text-align: center;
+    color: var(--primery_color);
+    padding: 10px;
+    font-size: 20px;
+}
+
+.project_box_use-tools {
+    /* border: 1px solid black; */
+    width: 36vw;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+
+}
+
+.project_box_use-tools_box {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.project_box_use-tools_icon i {
+    font-size: 15px;
+    padding: 5px;
+}
+
+.project_box_use-tools_title p {
+    font-size: 10px;
+}
+
+.project_box_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.project_box_button_visit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.project_box_button_visit button {
+    background-color: var(--primery_color);
+    font-size: 16px;
+    padding: 5px 15px;
+    color: white;
+    border-radius: 5px 15px 5px;
+    border: none;
+    outline: none;
+}
+
+.project_box_button_code {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.project_box_button_code button {
+    background-color: var(--primery_color);
+    font-size: 16px;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px 15px 5px;
+    border: none;
+    outline: none;
+}
+
+/* @media screen and (min-width:200px) and (max-width:600px) {
+    .project_right {
+        flex-direction: column;
+    }
+
+    .project_box {
+        width: 20vw;
+    }
+} */
