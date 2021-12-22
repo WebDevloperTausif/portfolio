@@ -10,23 +10,7 @@
         font-size: 1.5rem;
     }
 
-    .about {
-        display: flex;
-        flex-direction: column;
-
-    }
-
-    .about_right_about {
-        order: -1;
-    }
-
-    .conatct__bottom {
-        flex-direction: column;
-    }
-
-    .section__profile h3 {
-        font-size: 1.5rem;
-    }
+   
 }
 
 /* @media screen and (min-width:200px) and (max-width:500px) {

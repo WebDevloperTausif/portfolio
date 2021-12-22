@@ -1,72 +1,67 @@
-/* About section css start here  */
 .about__section {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    align-items: center;
-    padding: 50px;
+    padding: 20px;
 }
 
 .about {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 80vw;
 }
 
-.about__left {
-    width: 20vw;
-    /* border: 1px solid black; */
-    padding: 10px;
-
-}
-
-.about__left_img img {
-    width: 250px;
-    height: 300px;
-    border: none;
-    box-shadow: 10px 10px rgb(226, 223, 223);
-}
-
-.about__right {
-    /* border: 1px solid black; */
-    width: 55vw;
-    height: 60vh;
-    /* padding: 40px; */
+.about__top {
+    width: 80vw;
     display: flex;
     flex-direction: column;
-    row-gap: 20px;
-
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
 
+.about_top_about {
+    font-size: 30px;
+}
 
+.about_top_about h3 {
+    color: #DC143C;
+}
 
-.about_right_about {
-    font-size: 20px;
+.about__down {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 40px;
+    /* border: 1px solid black; */
+}
+
+.about__down_img {
+    /* border: 1px solid black; */
+    padding: 0px;
+}
+
+.about__down_img img {
+    width: 200px;
+    height: 250px;
+}
+
+.about__down_text_sec {
+    width: 60vw;
+    /* border: 1px solid black; */
+}
+
+.about__down_text_sec h2 {
+    font-size: 25px;
+    line-height: 60px;
     text-align: center;
 }
 
-.about__right_text_down {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-
+.about__down_text_sec span {
+    color: #DC143C;
 }
 
-.about__right_text_down h2 {
+.about__down_text_sec p {
     font-size: 20px;
-    text-align: center;
+    line-height: 30px;
 }
-
-.about__right_text_down span {
-    font-size: 20px;
-    color: var(--primery_color);
-}
-
-.about__right_text_down p {
-    /* text-align: center; */
-    padding: 10px;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
