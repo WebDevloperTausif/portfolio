@@ -70,3 +70,8 @@
 .section_profile_resume i {
     color: var(--text_color);
 }
+@media screen and (min-width:400px) and (max-width:800px) {
+    .section__profile h3{
+        font-size: 1.5rem;
+    }
+}

@@ -32,13 +32,16 @@ nav {
 }
 
 .nav__left {
-    width: 20vw;
+    width: 30vw;
     display: flex;
     /* border: 2px solid black; */
     align-items: center;
     justify-content: center;
-
     color: var(--text_color);
+}
+
+.nav__left_box {
+    width: 28vw;
 }
 
 .nav__left_logo {
@@ -48,42 +51,61 @@ nav {
 }
 
 .nav__right {
-
-    width: 35vw;
+    /* border: 2px solid black; */
+    width: 50vw;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     align-items: center;
 }
 
+.nav__right_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
 .nav__right_home {
-    font-size: 14px;
+    font-size: 1rem;
     color: var(--text_color);
 
 }
 
 .nav__right_about {
-    font-size: 14px;
+    font-size: 1rem;
     color: var(--text_color);
 }
 
 .nav__right_skill {
-    font-size: 14px;
+    font-size: 1rem;
     color: var(--text_color);
 }
 
 .nav__right_project {
-    font-size: 14px;
+    font-size: 1rem;
     color: var(--text_color);
 }
 
 .nav__right_contact {
-    font-size: 14px;
+    font-size: 1rem;
     color: var(--text_color);
 }
 
 /* @media screen and (min-width:700px) and (max-width:900px) {} */
-@media screen and (min-width:600px) and (max-width:866px) {
+@media screen and (min-width:400px) and (max-width:800px) {
     nav {
-        width: 98vw;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
     }
+    .nav__left_logo h1{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width:200px) and (max-width:500px) {
+    nav {
+        display: none;
+    }
+   
 }
