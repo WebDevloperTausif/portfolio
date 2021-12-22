@@ -1,99 +1,42 @@
-@media only screen and (min-width:300px) and (max-width: 768px) {
-
-    /* For mobile phones: */
+@media screen and (min-width:400px) and (max-width:800px) {
     nav {
         flex-direction: column;
-        gap: 20px;
-    }
-
-    .nav__left_box {
-        display: flex;
         justify-content: center;
         align-items: center;
+        gap: 15px;
     }
 
-    .nav__right_box {
-        align-items: center;
+    .nav__left_logo h1 {
+        font-size: 1.5rem;
     }
 
-
-    /* project section start here  */
-
-    .project_right {
+    .about {
+        display: flex;
         flex-direction: column;
+
     }
 
-    .project_box {
-        width: 36vw;
+    .about_right_about {
+        order: -1;
     }
 
-
-    /* contact section start here  */
     .conatct__bottom {
         flex-direction: column;
     }
 
-    .contact__left {
-        width: 40vw;
-    }
-
-    .contact__right {
-        width: 40vw;
-    }
-    .contact__right_input_button button{
-        width: 20vw;
-        padding: 10px 10px;
+    .section__profile h3 {
+        font-size: 1.5rem;
     }
 }
 
-
-
-
-
-
-
-
-
-
-/* @media screen and (min-width:450px) and (max-width:800px) {
-    nav {
-        background: wheat;
-        flex-direction: column;
-    }
-} */
-
-/* 
-.nav__left_logo h1 {
-    font-size: 1.rem;
-}
-
-.about {
-    display: flex;
-    flex-direction: column;
-
-}
-
-.about_right_about {
-    order: -1;
-}
-
-.conatct__bottom {
-    flex-direction: column;
-}
-
-.section__profile h3 {
-    font-size: 1.5rem;
-}
-
-
-@media screen and (min-width:200px) and (max-width:500px) {
+/* @media screen and (min-width:200px) and (max-width:500px) {
     nav {
         display: none;
     }
 
-}
+} */
 
-@media screen and (min-width:400px) and (max-width:800px) {
+/* @media screen and (min-width:400px) and (max-width:800px) {
     .about {
         display: flex;
         flex-direction: column;
