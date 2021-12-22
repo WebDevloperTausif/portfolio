@@ -16,6 +16,7 @@
             width: 80vw;
             justify-content: center;
             align-items: center;
+            gap: 40px;
         }
 
         .skill_top {
@@ -34,9 +35,8 @@
         }
 
         .skill_bottom_box {
-
             width: 18vw;
-            height: 25vh;
+            height: 10rem;
             border: 2px solid rgb(190, 187, 187);
         }
 

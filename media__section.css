@@ -19,36 +19,17 @@
         font-size: 25px;
         padding: 10px;
     }
-   
-}
+    /* skills and tools css start here media  */
 
-/* @media screen and (min-width:200px) and (max-width:500px) {
-    nav {
-        display: none;
-    }
+    /* .skill_bottom{
 
-} */
+    } */
 
-/* @media screen and (min-width:400px) and (max-width:800px) {
-    .about {
-        display: flex;
-        flex-direction: column;
 
-    }
 
-    .about_right_about {
-        order: -1;
-    }
-}
+    /* contact section css start here media  */
 
-@media screen and (min-width:100px) and (max-width:800px) {
-    .conatct__bottom {
+    .conatct__bottom{
         flex-direction: column;
     }
 }
-
-@media screen and (min-width:400px) and (max-width:800px) {
-    .section__profile h3 {
-        font-size: 1.5rem;
-    }
-} */
