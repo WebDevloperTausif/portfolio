@@ -19,7 +19,8 @@
 }
 
 .about_top_about {
-    font-size: 30px;
+    font-size: 20px;
+    line-height: 50px;
 }
 
 .about_top_about h3 {
@@ -31,12 +32,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* flex-direction: column; */
     padding: 20px;
     gap: 40px;
     /* border: 1px solid black; */
 }
 
 .about__down_img {
+    width: 20vw;
     /* border: 1px solid black; */
     padding: 0px;
 }
@@ -44,6 +47,9 @@
 .about__down_img img {
     width: 200px;
     height: 250px;
+    /* border-radius: 5px 5px 10px rgb(192, 185, 185); */
+    box-shadow: 5px 5px 30px rgb(145, 140, 140);
+    ;
 }
 
 .about__down_text_sec {
