@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .contact__section {
@@ -35,13 +36,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* border: 1px solid black; */
+    gap: 40px;
 
 }
 
 .contact__left {
     width: 40vw;
     /* border: 1px solid black; */
-    padding: 50px;
+
 }
 
 .conatct__profile_box {
@@ -70,13 +73,13 @@
 .contact__right {
     width: 40vw;
     /* border: 1px solid black; */
-    padding: 30px;
+
 }
 
 .contact__right_input_box {
     width: 40vw;
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
@@ -97,7 +100,7 @@
     padding: 10px;
 }
 
-.contact__right_input_message input {
+.contact__right_input_message textarea {
     width: 34vw;
     padding: 10px;
 }

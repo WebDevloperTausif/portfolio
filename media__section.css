@@ -2,6 +2,72 @@
     nav {
         display: none;
     }
+
+    .section__profile h3 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .about_top_about {
+        text-align: center;
+    }
+
+    .about__down_img {
+        width: 55vw;
+        align-items: center;
+    }
+
+    .skill_bottom_box {
+        width: 38vw;
+
+    }
+
+    .skill_icon i {
+        font-size: 50px;
+        padding: 20px;
+    }
+
+    .project_box {
+        width: 80vw;
+    }
+
+    .contact__left {
+        width: 80vw;
+    }
+
+    .contact__right {
+        width: 80vw;
+    }
+
+    .contact__right_input_box {
+        width: 80vw;
+    }
+
+    .contact__right_input_name input {
+        width: 70vw;
+    }
+
+    .contact__right_input_email input {
+        width: 70vw;
+    }
+
+    .contact__right_input_subject input {
+        width: 70vw;
+    }
+
+    .contact__right_input_message textarea {
+        width: 70vw;
+
+    }
+
+    .contact__right_input_button button {
+        width: 40vw;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .footer__box {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width:700px) {
