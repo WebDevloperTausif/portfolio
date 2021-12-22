@@ -147,13 +147,3 @@
     border: none;
     outline: none;
 }
-
-/* @media screen and (min-width:200px) and (max-width:600px) {
-    .project_right {
-        flex-direction: column;
-    }
-
-    .project_box {
-        width: 20vw;
-    }
-} */

@@ -1,5 +1,5 @@
 @media screen and (max-width:500px) {
-    nav{
+    nav {
         display: none;
     }
 }
@@ -18,13 +18,15 @@
 
     /* about section start  here media  */
 
-    .about__down{
+    .about__down {
         flex-direction: column;
     }
-    .about__down_text_sec h2{
+
+    .about__down_text_sec h2 {
         font-size: 25px;
         padding: 10px;
     }
+
     /* skills and tools css start here media  */
 
     /* .skill_bottom{
@@ -35,10 +37,10 @@
 
     /* contact section css start here media  */
 
-    .conatct__bottom{
+    .conatct__bottom {
         flex-direction: column;
     }
-} 
+}
 
 
 /* Extra small devices (phones, 600px and down) */
