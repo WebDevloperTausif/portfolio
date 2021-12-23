@@ -36,13 +36,13 @@
     .about_top_about {
         text-align: center;
         font-size: 20px;
-        padding: 0px;
+        /* padding: 0px; */
     }
 
     .about__down_img {
         width: 50vw;
         align-items: center;
-        padding: 0px;
+        /* padding: 0px; */
     }
 
     .about__down_img img {
@@ -53,6 +53,7 @@
 
     .about__down_text_sec {
         width: 90vw;
+        padding: 40px;
     }
 
     .about__down_text_sec h2 {
@@ -88,9 +89,10 @@
 
     /* contact section css start here  */
 
-    .contact{
+    .contact {
         width: 90vw;
     }
+
     .contact__left {
         width: 70vw;
     }
@@ -138,42 +140,56 @@
 
 /* start here max-width 700px  */
 
-@media screen and (min-width:401px) and (max-width:750px) {
+@media screen and (min-width:401px) and (max-width:600px) {
     nav {
         flex-direction: column;
+        width: 100vw;
     }
 
     .nav__left {
-        width: 70vw;
+        width: 100vw;
         align-items: center;
+    }
 
+    .nav__left_logo {
+        width: 90vw;
+        /* align-items: center; */
+        /* border: 1px solid black; */
     }
 
     .nav__left_box h1 {
-        font-size: 30px;
+        font-size: 28px;
     }
 
     .nav__right {
-        width: 70vw;
+        width: 90vw;
         align-items: center;
         padding: 10px;
     }
 
+    .nav__right_box {
+        width: 90vw;
+    }
+
+    /* about section start here css  */
+
     .section__profile {
-        width: 75vw;
-        display: flex;
+        width: 90vw;
+
     }
 
     .section_profile_skill h3 {
         font-size: 20px;
     }
 
+    /* about  section start here  */
+
     .about_top_about {
         text-align: center;
     }
 
     .about__down_img {
-        width: 55vw;
+        width: 70vw;
         flex-direction: column;
     }
 
@@ -196,9 +212,13 @@
         align-items: center;
     }
 
+    .about__down_text_sec {
+        width: 80vw;
+    }
+
     .about__down_text_sec h2 {
-        width: 60vw;
-        font-size: 15px;
+        width: 80vw;
+        font-size: 20px;
     }
 
     .about__down_text_sec p {
@@ -216,27 +236,31 @@
     }
 
     .skill_bottom_box {
-        width: 32vw;
+        width: 38vw;
 
     }
 
+    .skill_bottom_box i {
+        font-size: 60px;
+        padding: 25px;
+    }
 
     /* project section start here  */
     .project {
-        width: 80vw;
+        width: 90vw;
         padding: 0px;
     }
 
     .project_right {
-        width: 75vw;
+        width: 90vw;
     }
 
     .project_box {
-        width: 70vw;
+        width: 86vw;
     }
 
     .project_box_use-tools {
-        width: 70vw;
+        width: 85vw;
 
     }
 
@@ -244,39 +268,52 @@
 
     /* contact section start here  */
     .contact__section {
-        width: 80vw;
+        width: 90vw;
     }
 
     .contact__top {
-        width: 80vw;
+        width: 90vw;
     }
 
     .conatct__bottom {
-        width: 80vw;
+        width: 90vw;
         flex-direction: column;
+        /* border: 1px solid black; */
+        justify-content: center;
+        align-items: center;
     }
 
     .contact__left {
         width: 80vw;
+        justify-content: center;
+        align-items: center;
+
     }
 
     .conatct__profile_box a {
-        width: 80vw;
-        font-size: 35px;
+        width: 90vw;
+        font-size: 25px;
     }
 
     .contact__right {
-        width: 70vw;
-        padding: 40px;
+        /* border: 1px solid black; */
+        width: 54.5vw;
+        justify-content: center;
+        align-items: center;
     }
 
     .contact__right_input_box input {
-        width: 60vw;
+        width: 50vw;
+        align-items: center;
+        padding: 10px;
+        border: 1px solid black;
     }
 
     .contact__right_input_box textarea {
-        width: 60vw;
+        width: 50vw;
         height: 13vh;
+        padding: 10px;
+        border: 1px solid black;
     }
 
     .contact__right_input_button button {
@@ -291,7 +328,7 @@
 }
 
 
-
+@media screen and (min-width:401px) and (max-width:600px) {}
 
 
 
