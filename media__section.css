@@ -1,25 +1,71 @@
 @media screen and (min-width:200px) and (max-width:400px) {
+
+    /* header section css start here  */
+
     nav {
         display: none;
     }
 
+    section {
+        height: 70vh;
+    }
+
+    .section__profile_img img {
+        width: 150px;
+        height: 150px;
+
+    }
+
     .section__profile h3 {
-        font-size: 1.5rem;
+        width: 90vw;
+        font-size: 18px;
         text-align: center;
+    }
+
+
+    /* about section css start here  */
+    .about__section {
+        padding: 0px;
     }
 
     .about__down {
         flex-direction: column;
+
     }
 
     .about_top_about {
         text-align: center;
+        font-size: 20px;
+        padding: 0px;
     }
 
     .about__down_img {
-        width: 55vw;
+        width: 50vw;
         align-items: center;
+        padding: 0px;
     }
+
+    .about__down_img img {
+        width: 200px;
+        height: 220px;
+
+    }
+
+    .about__down_text_sec {
+        width: 90vw;
+    }
+
+    .about__down_text_sec h2 {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .about__down_text_sec p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    /* skill section css start here  */
 
     .skill_bottom_box {
         width: 38vw;
@@ -40,6 +86,11 @@
 
     }
 
+    /* contact section css start here  */
+
+    .contact{
+        width: 90vw;
+    }
     .contact__left {
         width: 70vw;
     }
@@ -50,6 +101,7 @@
 
     .contact__right {
         width: 80vw;
+        padding: 5px;
     }
 
     .contact__right_input_box {
