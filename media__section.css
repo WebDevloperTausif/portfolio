@@ -1,4 +1,4 @@
-@media screen and (min-width:200px) and (max-width:500px) {
+@media screen and (min-width:200px) and (max-width:400px) {
     nav {
         display: none;
     }
@@ -6,6 +6,10 @@
     .section__profile h3 {
         font-size: 1.5rem;
         text-align: center;
+    }
+
+    .about__down {
+        flex-direction: column;
     }
 
     .about_top_about {
@@ -38,6 +42,10 @@
 
     .contact__left {
         width: 70vw;
+    }
+
+    .conatct__bottom {
+        flex-direction: column;
     }
 
     .contact__right {
@@ -78,7 +86,7 @@
 
 /* start here max-width 700px  */
 
-@media screen and (min-width:500px) and (max-width:750px) {
+@media screen and (min-width:401px) and (max-width:750px) {
     nav {
         flex-direction: column;
     }
