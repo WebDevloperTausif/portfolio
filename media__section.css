@@ -360,7 +360,23 @@
 }
 
 
-@media screen and (min-width:801px) and (max-width:1100px) {}
+@media screen and (min-width:801px) and (max-width:1100px) {
+    .about__down {
+        width: 80vw;
+    }
+
+    .about__down_img {
+        width: 20vw;
+    }
+    .about__down_img img{
+        width: 180px;
+        height: 220px;
+    }
+
+    .about__down_text_sec {
+        width: 60vw;
+    }
+}
 
 
 
