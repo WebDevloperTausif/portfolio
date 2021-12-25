@@ -41,6 +41,7 @@
 .about__down_img {
     width: 20vw;
     /* border: 1px solid black; */
+    display: flex;
     padding: 0px;
 }
 

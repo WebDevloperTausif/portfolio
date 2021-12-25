@@ -1,9 +1,20 @@
-@media screen and (min-width:200px) and (max-width:400px) {
+@media screen and (min-width:200px) and (max-width:500px) {
 
     /* header section css start here  */
 
     nav {
         display: none;
+    }
+
+    .nav__left {
+        width: 80vw;
+
+
+    }
+
+    .nav__right {
+        width: 80vw;
+
     }
 
     section {
@@ -36,13 +47,13 @@
     .about_top_about {
         text-align: center;
         font-size: 20px;
-        /* padding: 0px; */
+
     }
 
     .about__down_img {
         width: 50vw;
         align-items: center;
-        /* padding: 0px; */
+
     }
 
     .about__down_img img {
@@ -140,21 +151,23 @@
 
 /* start here max-width 700px  */
 
-@media screen and (min-width:401px) and (max-width:600px) {
+@media screen and (min-width:501px) and (max-width:800px) {
     nav {
+        width: 80vw;
         flex-direction: column;
-        width: 100vw;
+        gap: 20px;
+
     }
 
     .nav__left {
-        width: 100vw;
+        width: 75vw;
         align-items: center;
+        justify-content: center;
     }
 
     .nav__left_logo {
-        width: 90vw;
-        /* align-items: center; */
-        /* border: 1px solid black; */
+        width: 63vw;
+
     }
 
     .nav__left_box h1 {
@@ -162,19 +175,20 @@
     }
 
     .nav__right {
-        width: 90vw;
+        width: 75vw;
         align-items: center;
-        padding: 10px;
+        justify-content: center;
+
     }
 
     .nav__right_box {
-        width: 90vw;
+        width: 75vw;
     }
 
     /* about section start here css  */
 
     .section__profile {
-        width: 90vw;
+        width: 80vw;
 
     }
 
@@ -200,16 +214,28 @@
     .about__top {
         width: 80vw;
         padding: 0px;
+        justify-content: center;
+        align-items: center;
     }
 
     .about__down {
         width: 80vw;
         flex-direction: column;
+
     }
 
     .about__down_img {
-        width: 50vw;
+        width: 80vw;
+
+        justify-content: center;
         align-items: center;
+
+    }
+
+    .about__down_img img {
+        width: 250px;
+
+
     }
 
     .about__down_text_sec {
@@ -229,14 +255,20 @@
 
     .skill {
         width: 80vw;
+
     }
 
     .skill_bottom {
         width: 80vw;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
     }
 
     .skill_bottom_box {
-        width: 38vw;
+        width: 35vw;
+        /* flex-wrap: wrap; */
 
     }
 
@@ -246,6 +278,7 @@
     }
 
     /* project section start here  */
+
     .project {
         width: 90vw;
         padding: 0px;
@@ -267,6 +300,7 @@
 
 
     /* contact section start here  */
+
     .contact__section {
         width: 90vw;
     }
@@ -277,27 +311,25 @@
 
     .conatct__bottom {
         width: 90vw;
-        flex-direction: column;
-        /* border: 1px solid black; */
         justify-content: center;
         align-items: center;
     }
 
     .contact__left {
-        width: 80vw;
+        width: 60vw;
         justify-content: center;
         align-items: center;
 
     }
 
     .conatct__profile_box a {
-        width: 90vw;
-        font-size: 25px;
+        width: 60vw;
+        font-size: 20px;
     }
 
     .contact__right {
-        /* border: 1px solid black; */
-        width: 54.5vw;
+
+        width: 60vw;
         justify-content: center;
         align-items: center;
     }
@@ -328,20 +360,7 @@
 }
 
 
-@media screen and (min-width:601px) and (max-width:800px) {
-    nav {
-        flex-direction: column;
-        border: 1px solid black;
-    }
-
-    .nav__left {
-        width: 90vw;
-    }
-
-    .nav__right {
-        width: 90vw;
-    }
-}
+@media screen and (min-width:801px) and (max-width:1100px) {}
 
 
 

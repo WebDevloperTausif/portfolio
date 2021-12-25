@@ -17,6 +17,7 @@ body {
 header {
     background: var(--primery_color);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
@@ -27,31 +28,30 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    position: static;
     /* border: 1px solid black; */
 }
 
 .nav__left {
     width: 30vw;
+    /* border: 1px solid black; */
     display: flex;
-    /* border: 2px solid black; */
     align-items: center;
     justify-content: center;
     color: var(--text_color);
 }
 
-.nav__left_box {
-    width: 28vw;
+ .nav__left_box {
+    width: 30vw;
 }
 
 .nav__left_logo {
     color: var(--text_color);
     font-weight: bold;
     font-size: 25px;
-}
+} 
 
 .nav__right {
-    /* border: 2px solid black; */
+    /* border: 1px solid black; */
     width: 50vw;
     display: flex;
     justify-content: flex-end;
@@ -59,6 +59,7 @@ nav {
 }
 
 .nav__right_box {
+    width: 50vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,4 +90,4 @@ nav {
 .nav__right_contact {
     font-size: 1rem;
     color: var(--text_color);
-}
+} 
