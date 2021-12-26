@@ -15,12 +15,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
     padding: 20px;
 }
 
 .about_top_about {
     font-size: 20px;
     line-height: 50px;
+    text-align: justify;
 }
 
 .about_top_about h3 {
@@ -56,12 +58,13 @@
 .about__down_text_sec {
     width: 60vw;
     /* border: 1px solid black; */
+
 }
 
 .about__down_text_sec h2 {
     font-size: 25px;
     line-height: 60px;
-    text-align: center;
+    text-align: justify;
 }
 
 .about__down_text_sec span {
@@ -71,4 +74,5 @@
 .about__down_text_sec p {
     font-size: 20px;
     line-height: 30px;
+    text-align: justify;
 }

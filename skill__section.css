@@ -37,6 +37,10 @@
     width: 18vw;
     height: 10rem;
     border: 2px solid rgb(190, 187, 187);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .skill_icon i {
