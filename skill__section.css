@@ -1,6 +1,7 @@
 /* skills and tools css start here  */
 
 .section_skill {
+    width: 100vw;
     display: flex;
     justify-content: center;
     background-color: black;

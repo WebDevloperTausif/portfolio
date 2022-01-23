@@ -15,6 +15,7 @@ body {
 }
 
 header {
+    width: 100vw;
     background: var(--primery_color);
     display: flex;
     flex-direction: column;
