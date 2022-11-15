@@ -7,13 +7,13 @@
     }
 
     .nav__left {
-        width: 80vw;
+        width: 80%;
 
 
     }
 
     .nav__right {
-        width: 80vw;
+        width: 80%;
 
     }
 
@@ -28,7 +28,7 @@
     }
 
     .section__profile h3 {
-        width: 90vw;
+        width: 90%;
         font-size: 18px;
         text-align: center;
     }
@@ -51,7 +51,7 @@
     }
 
     .about__down_img {
-        width: 50vw;
+        width: 50%;
         align-items: center;
 
     }
@@ -63,7 +63,7 @@
     }
 
     .about__down_text_sec {
-        width: 90vw;
+        width: 90%;
         padding: 40px;
     }
 
@@ -80,7 +80,7 @@
     /* skill section css start here  */
 
     .skill_bottom_box {
-        width: 38vw;
+        width: 38%;
 
     }
 
@@ -90,22 +90,22 @@
     }
 
     .project_box {
-        width: 80vw;
+        width: 80%;
     }
 
     .project_box_use-tools {
-        width: 80vw;
+        width: 80%;
 
     }
 
     /* contact section css start here  */
 
     .contact {
-        width: 90vw;
+        width: 90%;
     }
 
     .contact__left {
-        width: 70vw;
+        width: 70%;
     }
 
     .conatct__bottom {
@@ -113,33 +113,33 @@
     }
 
     .contact__right {
-        width: 80vw;
+        width: 80%;
         padding: 5px;
     }
 
     .contact__right_input_box {
-        width: 80vw;
+        width: 80%;
     }
 
     .contact__right_input_name input {
-        width: 70vw;
+        width: 70%;
     }
 
     .contact__right_input_email input {
-        width: 70vw;
+        width: 70%;
     }
 
     .contact__right_input_subject input {
-        width: 70vw;
+        width: 70%;
     }
 
     .contact__right_input_message textarea {
-        width: 70vw;
+        width: 70%;
 
     }
 
     .contact__right_input_button button {
-        width: 40vw;
+        width: 40%;
         padding: 10px;
         border-radius: 5px;
     }
@@ -153,20 +153,20 @@
 
 @media screen and (min-width:501px) and (max-width:800px) {
     nav {
-        width: 80vw;
+        width: 80%;
         flex-direction: column;
         gap: 20px;
 
     }
 
     .nav__left {
-        width: 75vw;
+        width: 75%;
         align-items: center;
         justify-content: center;
     }
 
     .nav__left_logo {
-        width: 63vw;
+        width: 63%;
 
     }
 
@@ -175,20 +175,20 @@
     }
 
     .nav__right {
-        width: 75vw;
+        width: 75%;
         align-items: center;
         justify-content: center;
 
     }
 
     .nav__right_box {
-        width: 75vw;
+        width: 75%;
     }
 
     /* about section start here css  */
 
     .section__profile {
-        width: 80vw;
+        width: 80%;
 
     }
 
@@ -203,29 +203,29 @@
     }
 
     .about__down_img {
-        width: 70vw;
+        width: 70%;
         flex-direction: column;
     }
 
     .about {
-        width: 80vw;
+        width: 80%;
     }
 
     .about__top {
-        width: 80vw;
+        width: 80%;
         padding: 0px;
         justify-content: center;
         align-items: center;
     }
 
     .about__down {
-        width: 80vw;
+        width: 80%;
         flex-direction: column;
 
     }
 
     .about__down_img {
-        width: 80vw;
+        width: 80%;
 
         justify-content: center;
         align-items: center;
@@ -239,11 +239,11 @@
     }
 
     .about__down_text_sec {
-        width: 80vw;
+        width: 80%;
     }
 
     .about__down_text_sec h2 {
-        width: 80vw;
+        width: 80%;
         font-size: 20px;
     }
 
@@ -254,12 +254,12 @@
     /* skill section start here media  */
 
     .skill {
-        width: 80vw;
+        width: 80%;
 
     }
 
     .skill_bottom {
-        width: 80vw;
+        width: 80%;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
@@ -267,7 +267,7 @@
     }
 
     .skill_bottom_box {
-        width: 35vw;
+        width: 35%;
         /* flex-wrap: wrap; */
 
     }
@@ -280,20 +280,20 @@
     /* project section start here  */
 
     .project {
-        width: 90vw;
+        width: 90%;
         padding: 0px;
     }
 
     .project_right {
-        width: 90vw;
+        width: 90%;
     }
 
     .project_box {
-        width: 86vw;
+        width: 86%;
     }
 
     .project_box_use-tools {
-        width: 85vw;
+        width: 85%;
 
     }
 
@@ -302,54 +302,54 @@
     /* contact section start here  */
 
     .contact__section {
-        width: 90vw;
+        width: 90%;
     }
 
     .contact__top {
-        width: 90vw;
+        width: 90%;
     }
 
     .conatct__bottom {
-        width: 90vw;
+        width: 90%;
         justify-content: center;
         align-items: center;
     }
 
     .contact__left {
-        width: 60vw;
+        width: 60%;
         justify-content: center;
         align-items: center;
 
     }
 
     .conatct__profile_box a {
-        width: 60vw;
+        width: 60%;
         font-size: 20px;
     }
 
     .contact__right {
 
-        width: 60vw;
+        width: 60%;
         justify-content: center;
         align-items: center;
     }
 
     .contact__right_input_box input {
-        width: 50vw;
+        width: 50%;
         align-items: center;
         padding: 10px;
         border: 1px solid black;
     }
 
     .contact__right_input_box textarea {
-        width: 50vw;
+        width: 50%;
         height: 13vh;
         padding: 10px;
         border: 1px solid black;
     }
 
     .contact__right_input_button button {
-        width: 40vw;
+        width: 40%;
         padding: 10px;
         border-radius: 5px;
     }
@@ -362,11 +362,11 @@
 
 @media screen and (min-width:801px) and (max-width:1100px) {
     .about__down {
-        width: 80vw;
+        width: 80%;
     }
 
     .about__down_img {
-        width: 20vw;
+        width: 20%;
     }
     .about__down_img img{
         width: 180px;
@@ -374,7 +374,7 @@
     }
 
     .about__down_text_sec {
-        width: 60vw;
+        width: 60%;
     }
 }
 

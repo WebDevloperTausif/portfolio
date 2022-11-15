@@ -1,5 +1,5 @@
 .contact {
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,7 +7,7 @@
 }
 
 .contact__section {
-    width: 80vw;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +16,7 @@
 }
 
 .contact__top {
-    width: 80vw;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,7 +33,7 @@
 }
 
 .conatct__bottom {
-    width: 80vw;
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,13 +43,13 @@
 }
 
 .contact__left {
-    width: 40vw;
+    width: 40%;
     /* border: 1px solid black; */
 
 }
 
 .conatct__profile_box {
-    width: 40vw;
+    width: 40%;
     display: flex;
     gap: 20px;
     align-items: center;
@@ -72,13 +72,13 @@
 }
 
 .contact__right {
-    width: 40vw;
+    width: 40%;
     /* border: 1px solid black; */
 
 }
 
 .contact__right_input_box {
-    width: 40vw;
+    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,28 +87,28 @@
 }
 
 .contact__right_input_name input {
-    width: 16vw;
+    width: 16%;
     padding: 10px;
 }
 
 .contact__right_input_email input {
-    width: 16vw;
+    width: 16%;
     padding: 10px;
 }
 
 .contact__right_input_subject input {
-    width: 34vw;
+    width: 34%;
     padding: 10px;
 }
 
 .contact__right_input_message textarea {
-    width: 34vw;
+    width: 34%;
     padding: 10px;
     height: 8vh;
 }
 
 .contact__right_input_button button {
-    width: 14vw;
+    width: 14%;
     background-color: var(--primery_color);
     padding: 10px 15px;
     color: white;
